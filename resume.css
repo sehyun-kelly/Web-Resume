@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600;1,700;1,800&display=swap');
+
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 35% 65%;
+    font-size: 11px;
+}
+
+.left {
+    background-color: #e3f2fd;
+    padding: 10px;
+    display: grid;
+    grid-template-rows: 20% 25% 20% 35%;
+}
+
+.leftdiv, .rightdiv{
+    display: grid;
+    align-items: center;
+}
+
+.name {
+    width: 100%;
+    text-align: end;
+    /* background- /color: white; */
+}
+
+.contactdiv{
+    grid-template-rows: 20% 80%;
+}
+
+.edudiv {
+    grid-template-rows: 10% 45% 45%;
+}
+
+.skilldiv{
+    grid-template-rows: 10% 30% 30% 30%;
+}
+
+.education {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    /* grid-template-rows: 30% 20% 30% 20%; */
+}
+
+.contact {
+    padding: 5px;
+    display: grid;
+    height: 100%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    font-size: 11px;
+}
+
+.contact > a{
+    text-decoration: none;
+    color: black;
+}
+
+.edu1 {
+    font-weight: 700;
+}
+
+.edu2 {
+    font-style: italic;
+}
+
+.edu4 {
+    font-weight: 600;
+    color: #1565c0;
+}
+.right {
+    padding: 20px;
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+
+.section_title{
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #0d47a1;
+}
+
+.name{
+    font-size: 42px;
+    font-weight: 800;
+}
+
+.skill_header {
+    font-weight: 600;
+}
+
+.skill{
+    display: inline-block;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    line-height: 25px;
+    background-color: #1565c0;
+    width: 80px;
+    height: 25px;
+    border-radius: 10px;
+}
+
+.skill_section{
+    height: 100%;
+    display: grid;
+    grid-template-rows: 40% 60%;
+}
+
+.project{
+    display: grid;
+}
+
+.title{
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.title2{
+    font-style: italic;
+}
+
+.work{
+    display: grid;
+}
