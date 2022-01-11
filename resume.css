@@ -21,7 +21,7 @@ body{
     background-color: #e3f2fd;
     padding: 10px;
     display: grid;
-    grid-template-rows: 25% 25% 20% 30%;
+    grid-template-rows: 33% 25% 12% 30%;
 }
 
 .leftdiv, .rightdiv{
@@ -30,6 +30,21 @@ body{
 }
 
 .name {
+    width: 100%;
+    height: 90%;
+    display: grid;
+    grid-template-rows: 20% 80%;
+}
+
+.links {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 33% 34% 33%;
+    align-self: center;
+    justify-self: center;
+}
+
+.kelly {
     width: 100%;
     text-align: end;
     font-size: 42px;
@@ -52,37 +67,20 @@ body{
     display: flex;
     flex-direction: column;
     height: 100%;
-    /* grid-template-rows: 30% 20% 30% 20%; */
 }
 
 .contact {
     padding: 5px;
     display: grid;
-    height: 100%;
-    grid-template-rows: 25% 25% 50%;
-    grid-template-columns: 33% 34% 33%;
+    height: 80%;
+    grid-template-rows: 50% 50%;
     font-size: 14px;
     align-items: center;
 }
 
-.contact > a{
+.links > a{
     text-decoration: none;
     color: black;
-}
-
-.phone {
-    grid-column: 1 / span 3;
-    grid-row: 1 / span 1;
-}
-
-.email {
-    grid-column: 1 / span 3;
-    grid-row: 2 / span 1;
-}
-
-.linkedin{
-    grid-column: 1 / span 1;
-    grid-row: 3 / span 1;
 }
 
 .linkedin, .github, .website {
@@ -105,7 +103,7 @@ body{
     background-color: white;
     padding: 20px;
     display: grid;
-    grid-template-rows: 50% 50%;
+    grid-template-rows: 15% 50% 35%;
 }
 
 .section_title{
@@ -139,6 +137,7 @@ body{
 
 .project{
     display: grid;
+    height: 90%;
 }
 
 .title{
@@ -147,7 +146,12 @@ body{
 }
 
 .title2{
+    font-weight: 600;
+}
+
+.third {
     font-style: italic;
+    background-color: #e3f2fd;
 }
 
 .work{
@@ -172,4 +176,17 @@ body{
 
 .section_projects {
     align-self: end;
+} 
+
+.tech-stack{
+    font-style: italic;
+}
+
+.personal-stmt {
+    border-bottom: 2px solid #D3D3D3;
+}
+
+.statement {
+    height: 90%;
+    text-align: justify;
 }
