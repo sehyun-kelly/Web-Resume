@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600;1,700;1,800&display=swap');
 
 body{
-    background-color: #f4fafe;
+    /* background-color: #f4fafe; */
+    background-color: white;
     display: grid;
     width: 100vw;
     height: 100vh;
-    grid-template-columns: auto 800px auto;
+    grid-template-columns: auto 820px auto;
 }
 
 .container{
@@ -21,7 +22,7 @@ body{
     background-color: #e3f2fd;
     padding: 10px;
     display: grid;
-    grid-template-rows: 33% 25% 12% 30%;
+    grid-template-rows: 30% 30% 12% 28%;
 }
 
 .leftdiv, .rightdiv{
@@ -46,9 +47,11 @@ body{
 
 .kelly {
     width: 100%;
-    text-align: end;
+    height: 100%;
+    text-align: start;
     font-size: 42px;
     font-weight: 800;
+    display: grid;
 }
 
 .contactdiv{
@@ -56,11 +59,11 @@ body{
 }
 
 .edudiv {
-    grid-template-rows: 10% 45% 45%;
+    grid-template-rows: 16% 42% 42%;
 }
 
 .skilldiv{
-    grid-template-rows: 10% 30% 30% 30%;
+    grid-template-rows: 10% 22.5% 22.5% 22.5% 22.5%;
 }
 
 .education {
@@ -100,6 +103,8 @@ body{
     color: #1565c0;
 }
 .right {
+    height: 90%;
+    align-self: center;
     background-color: white;
     padding: 20px;
     display: grid;
@@ -127,6 +132,10 @@ body{
     width: 80px;
     height: 25px;
     border-radius: 10px;
+}
+
+.currentskill {
+    background-color: #3c8dea;
 }
 
 .skill_section{
@@ -161,12 +170,9 @@ body{
     line-height: 20px;
 }
 
-.title2{
-    font-weight: 600;
-}
-
 .third {
     font-style: italic;
+    font-weight: 600;
     background-color: #e3f2fd;
 }
 
@@ -177,6 +183,7 @@ body{
 .icon{
     width: 18px;
     height: 18px;
+    object-fit: contain;
 }
 
 .icons {
@@ -205,4 +212,8 @@ body{
 .statement {
     height: 90%;
     text-align: justify;
+}
+
+.section_work {
+    align-self: end;
 }
