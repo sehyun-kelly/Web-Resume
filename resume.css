@@ -22,7 +22,7 @@ body{
     background-color: #e3f2fd;
     padding: 10px;
     display: grid;
-    grid-template-rows: 30% 30% 12% 28%;
+    grid-template-rows: 30% 35% 12% 23%;
 }
 
 .leftdiv, .rightdiv{
@@ -63,7 +63,7 @@ body{
 }
 
 .skilldiv{
-    grid-template-rows: 10% 22.5% 22.5% 22.5% 22.5%;
+    grid-template-rows: 10% 20% 30% 20% 20%;
 }
 
 .education {
@@ -103,12 +103,12 @@ body{
     color: #1565c0;
 }
 .right {
-    height: 90%;
+    height: 95%;
     align-self: center;
     background-color: white;
     padding: 20px;
     display: grid;
-    grid-template-rows: 15% 50% 35%;
+    grid-template-rows: 10% 60% 30%;
 }
 
 .section_title{
@@ -163,7 +163,7 @@ body{
     font-size: 14px;
     background-color: #1565c0;
     color: white;
-    width: 50px;
+    width: 70px;
     text-align: center;
     border-radius: 7px;
     height: 20px;
@@ -205,10 +205,6 @@ body{
     font-style: italic;
 }
 
-.personal-stmt {
-    border-bottom: 2px solid #D3D3D3;
-}
-
 .statement {
     height: 90%;
     text-align: justify;
@@ -216,4 +212,39 @@ body{
 
 .section_work {
     align-self: end;
+}
+
+.webskill_section{
+    grid-template-rows: 30% 70%;
+}
+
+.webskill_circles{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: 50% 50%;
+}
+
+.web1{
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+}
+
+.web2{
+    grid-column: 2 / span 2;
+    grid-row: 1 / span 1;
+}
+
+.web3{
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 1;
+}
+
+.web4{
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
+}
+
+.web5{
+    grid-column: 3 / span 1;
+    grid-row: 2 / span 1;
 }
